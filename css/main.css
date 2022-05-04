@@ -10,15 +10,15 @@ padding: 0;
 }
 
 #logo {
-  margin-left: 23px;
-  margin-right: 379px;
-  width: 60px;
-  hight: 60px;
+  margin-left: 3%;
+  margin-right: 12%;
+  width: 50%;
+  hight: 50%;
 }
 
 .menu li {
   display: inline-block;
-  margin: 0 67px;
+  margin: 0 12%;
 }
 
 .menu li a {
