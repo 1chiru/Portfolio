@@ -17,12 +17,12 @@ padding: 0;
 }
 
 .menu li {
-  font-size: 24;
   display: inline-block;
   margin: 0 67px;
 }
 
 .menu li a {
+  font-size: 24px;
   text-decoration: none;
   color: black;
 }
