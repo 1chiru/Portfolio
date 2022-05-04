@@ -11,6 +11,8 @@ padding: 0;
 
 #logo {
   margin-right: 379px;
+  width: 30px;
+  hight: auto;
 }
 
 .menu li {
