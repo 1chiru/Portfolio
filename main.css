@@ -2,3 +2,21 @@
   width: 1612 px;
   margin: 0 auto;
 }
+
+.p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32;
+  font-weight: 100;
+}
+
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40;
+  font-weight: 800;
+}
+
+.h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40;
+  font-weight: 500;
+}
