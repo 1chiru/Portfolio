@@ -10,9 +10,10 @@ padding: 0;
 }
 
 #logo {
+  margin-left: 23px;
   margin-right: 379px;
-  width: 30px;
-  hight: auto;
+  width: 60px;
+  hight: 60px;
 }
 
 .menu li {
