@@ -11,18 +11,14 @@ padding: 0;
 
 
 .menu li {
-  text-decoration: none;
   font-size: 24;
 }
 
-.menu li a{
-  morgin-right: 
+.menu li a {
+  text-decoration: none;
+  list-style-type: none;
+  morgin-right: 40px;
 }
-
-.menu li {
-
-}
-
 
 .p {
   font-size: 32;
