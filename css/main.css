@@ -9,15 +9,14 @@ padding: 0;
   display: flex;
 }
 
-
 .menu li {
   font-size: 24;
+  display: inline-block;
+  margin: 0 25px;
 }
 
 .menu li a {
   text-decoration: none;
-  list-style-type: none;
-  morgin-right: 40px;
 }
 
 .p {
