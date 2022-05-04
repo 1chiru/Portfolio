@@ -5,6 +5,25 @@ padding: 0;
   color:black;
 }
 
+.menu {
+  display: flex;
+}
+
+
+.menu li {
+  text-decoration: none;
+  font-size: 24;
+}
+
+.menu li a{
+  morgin-right: 
+}
+
+.menu li {
+
+}
+
+
 .p {
   font-size: 32;
   font-weight: 100;
