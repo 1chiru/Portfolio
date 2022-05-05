@@ -2,7 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.p {
+p {
   font-size: 24px;
 }
 
@@ -17,8 +17,8 @@ h2 {
 }
 
 .header {
- background: linear-gradient(#FFFAF0, #FFDEAD);
- margin: 0px -10px 0px -10px;
+ background: linear-gradient(#ac8f57, #FFDEAD);
+ margin: -10px -10px 0px -10px;
 }
 
 
@@ -36,6 +36,7 @@ h2 {
 #logo {
   margin-left: 2%;
   margin-right: 23%;
+  margin-top: 2px;
   max-width: 72px;
   max-height: 72px;
 }
@@ -88,12 +89,10 @@ h2 {
   padding-top: 5%;
   padding-bottom: 5%;
   height: 1005px;
+ 
 }
 
-.main h1 {
+#text_main {
  padding-left: 50%;
-}
-
-.main h2 {
- padding-left: 55%;
+ padding-top: 20%;
 }
