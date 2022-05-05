@@ -1,6 +1,12 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  
 }
+
+.header {
+ margin: -5px -10px 0px -10px;
+}
+
 
 .container {
   margin-left: 8%;
@@ -9,11 +15,14 @@ body {
 
 .nav {
  display: flex;
- align-items: center
+ align-items: center;
+
 }
 
 .main {
-	
+	background: no-repeat center url("../img/back.jpg");
+	background-size: 120%;
+
 }
 
 #logo {
