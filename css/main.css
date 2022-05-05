@@ -1,13 +1,10 @@
 body {
-
   font-family: 'Montserrat', sans-serif;
-  background-image: url("img/back.jpg");
 }
 
 .container {
   margin-left: 8%;
   margin-right: 8%;
-  background: blue;
 }
 
 .nav {
@@ -29,6 +26,35 @@ body {
 .menu li {
   display: inline-block;
   margin-right: 67px;
+}
+
+
+@media screen and (max-width: 1580px) {
+  #logo {
+  margin-left: 2%;
+  margin-right: 10%;
+  max-width: 72px;
+  max-height: 72px;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 30px;
+}
+}
+
+@media screen and (max-width: 1150px) {
+  #logo {
+  margin-left: 2%;
+  margin-right: 0%;
+  max-width: 72px;
+  max-height: 72px;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 15px;
+}
 }
 
 .menu li a {
