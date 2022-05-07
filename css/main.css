@@ -186,7 +186,7 @@ dd {
 			display: flex;
 			flex-direction: column;
 
-        }
+        
         .box_1,.box_2 {
 			height: 100%;
             width: 50%;
@@ -220,3 +220,4 @@ dd {
 			margin-bottom: 0px;
 		}
 	
+}
