@@ -185,39 +185,37 @@ dd {
 			background-color: black;
 			display: flex;
 			flex-direction: column;
-
+}
         
-        .box_1,.box_2 {
-			height: 100%;
+.box_1,.box_2 {
+            height: 100%;
             width: 50%;
             display: inline-block;
 			
 		}
 		
-		.box_1 {
-			color: white;
-            background-color: black;
+.box_1 {
+	color: white;
+        background-color: black;
         }
 		
-        .box_2 {
-            color: white;
-			float: right;
-            background-color: black;
+.box_2 {
+        color: white;
+	float: right;
+        background-color: black;
         }
 		
-		.box_2 a{
-			font-size: 15px;
-			color: white;
-			text-decoration:none;
+.box_2 a{
+	font-size: 15px;
+	color: white;
+	text-decoration:none;
         }
 		
-		.box_3 h3{
+.box_3 h3{
 				
-			color: #c0c5ce;
-			font-size: 15px;
-			font-weight:100;
-			margin-top: 10px;
-			margin-bottom: 0px;
-		}
-	
-}
+	color: #c0c5ce;
+	font-size: 15px;
+	font-weight:100;
+	margin-top: 10px;
+	margin-bottom: 0px;
+        }
