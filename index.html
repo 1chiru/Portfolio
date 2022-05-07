@@ -5,7 +5,7 @@
   <title>Портфолио</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
         <img id="logo" src="img/logo_black.png" alt="logo">
       <ul class="menu">
         <li><a href="#main">Главная</a></li>
-        <li><a href="#info">Информация</a></li>
+        <li><a href="#info" onclick="btn2_click()">Информация</a></li>
         <li><a href="#add">Дополнительно</a></li>
         <li><a href="#footer">Контакты</a></li>
       </ul>
@@ -38,6 +38,11 @@
                 $(".main").show()
         });
      });
+	 
+	 function btn2_click() {
+                $(".main").hide();
+                $(".info").show()
+        }
 </script>
   
   
