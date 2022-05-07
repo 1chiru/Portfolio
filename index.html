@@ -13,9 +13,9 @@
   <header id="header" class="header">
     <div class="container">
       <div class="nav">
-        <img id="logo" src="img/logo_black.png" alt="logo">
+        <img id="logo" src="img/logo_black.png" alt="logo" onclick="img_click()">
       <ul class="menu">
-        <li><a href="#main">Главная</a></li>
+        <li><a href="#main" onclick="btn1_click()">Главная</a></li>
         <li><a href="#info" onclick="btn2_click()">Информация</a></li>
         <li><a href="#add">Дополнительно</a></li>
         <li><a href="#footer">Контакты</a></li>
@@ -38,11 +38,18 @@
                 $(".main").show()
         });
      });
+	 function btn1_click() {
+                $(".main").show();
+                $(".info").hide()
+        }
 	 
 	 function btn2_click() {
                 $(".main").hide();
                 $(".info").show()
         }
+		 function img_click() {
+		  window.location='http://www.example.com';
+		}
 </script>
   
   
