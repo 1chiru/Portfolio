@@ -24,21 +24,41 @@
     </div>
   </header>
   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   
+   <script>
+     $(document).ready(function () {
+       $(".info").hide();
+            $(".btn1").click(function () {
+                $(".main").hide();
+                $(".info").show()
+            });
+          $(".btn2").click(function () {
+                $(".info").hide();
+                $(".main").show()
+        });
+     });
+</script>
+  
+  
   <section id="main" class="main">
     <div class="container">
       <div id="text_main">
-		<h1>Метёлкин Артём</h1>
-			<h2>Маркетолог</h2>
-			<h2>Дизайнер</h2>
-			<h2>Разработчик</h2>
-			<h2>Фотограф</h2>
+	  <dl>
+		<dt><h1>Метёлкин Артём</h1></dt>
+			<dd><img id="manage" src="img/manage.png" alt="manage"><h2>Маркетолог</h2></dd>
+			<dd><img id="paint" src="img/paint.png" alt="paint"><h2>Дизайнер</h2></dd>
+			<dd><img id="develop" src="img/develop.png" alt="develop"><h2>Разработчик</h2></dd>
+			<dd><img id="photo" src="img/photo.png" alt="photo"><h2>Фотограф</h2></dd>
 		</div>
+		<button class="btn1"><div id="button_text">  Подробнее >  </div></button>
 	</div>
   </section>
   
   <section id="info" class="info">
     <div class="container">
       <h2>Информация</h2>
+	  <button class="btn2">< Обратно</button>
     </div>
   </section>
   
